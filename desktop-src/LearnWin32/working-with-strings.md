@@ -75,8 +75,8 @@ Back when applications needed to support both Windows NT as well as Windows 95, 
 
 | Macro     | Unicode   | ANSI   |
 |-----------|-----------|--------|
-| TCHAR     | `wchar_t` | `char` |
-| TEXT("x") | `L"x"`    | `"x"`  |
+| `TCHAR`     | `wchar_t` | `char` |
+| `TEXT("x")` or `_T("x")` | `L"x"`    | `"x"`  |
 
 
 
